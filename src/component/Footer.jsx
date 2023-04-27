@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <Box sx={{ backgroundColor: "#212529", padding: "40px" }}>
       <Typography
-        variant="h5"
+        variant="h6"
         component="div"
         sx={{ color: "white", textAlign: "center" }}
       >

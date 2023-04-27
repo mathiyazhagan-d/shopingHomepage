@@ -1,12 +1,14 @@
 import React from "react";
 import HighlightOffSharpIcon from "@mui/icons-material/HighlightOffSharp";
-import { Box, Typography } from "@mui/material";
+import { Box, Card, Typography } from "@mui/material";
 
 
 function CartItem(props) {
   return (
-    <Box margin={3}>
-      <Box>
+    <Box marginTop={1} >
+      
+      <Card>
+      <Box padding={1} >
         <Typography variant="h5">
           {props.data.title}{" "}
           <HighlightOffSharpIcon
@@ -15,7 +17,8 @@ function CartItem(props) {
           />
         </Typography>
         <Typography variant="h6"> Rs. {props.data.price}</Typography>
-      </Box>
+        </Box>
+         </Card>
     </Box>
   );
 }

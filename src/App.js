@@ -160,7 +160,7 @@ function App() {
       <NavBar cartTotal={cartitems.length} />
       <ShopinStyle />
       <Grid container spacing={2}>
-        <Grid xs={10} md={10}>
+        <Grid xs={8} md={10}>
           <Box
             display={"flex"}
             spacing={{ xs: 1, sm: 2 }}
@@ -177,7 +177,7 @@ function App() {
             ))}
           </Box>
         </Grid>
-        <Grid xs={2} md={2}>
+        <Grid xs={4} md={2}>
           <Box marginTop={3}>
             <Typography variant="h4">CART</Typography>
             {cartitems.map((item) => {
@@ -188,7 +188,7 @@ function App() {
               );
             })}
 
-            <Typography variant="h6">Total : {total}</Typography>
+            <Typography marginTop={2} textAlign={"center"} variant="h6">Total : {total}</Typography>
           </Box>
         </Grid>
       </Grid>
