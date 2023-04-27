@@ -1,7 +1,7 @@
 import React from "react";
 import HighlightOffSharpIcon from "@mui/icons-material/HighlightOffSharp";
 import { Box, Typography } from "@mui/material";
-import { red } from "@mui/material/colors";
+
 
 function CartItem(props) {
   return (

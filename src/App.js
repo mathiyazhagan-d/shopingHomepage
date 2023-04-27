@@ -4,6 +4,7 @@ import ShopinStyle from "./component/ShopinStyle";
 import ShopCard from "./component/Card";
 import { useState } from "react";
 import CartItem from "./component/CartItem";
+import Footer from "./component/Footer";
 
 function App() {
   const products = [
@@ -191,6 +192,7 @@ function App() {
           </Box>
         </Grid>
       </Grid>
+      <Footer/>
     </Box>
   );
 }
