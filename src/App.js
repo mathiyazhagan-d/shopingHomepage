@@ -1,4 +1,4 @@
-import { Box, CssBaseline, Grid, Typography } from "@mui/material";
+import { Box, Card, CssBaseline, Grid, Typography } from "@mui/material";
 import NavBar from "./component/navBar";
 import ShopinStyle from "./component/ShopinStyle";
 import ShopCard from "./component/Card";
@@ -187,8 +187,9 @@ function App() {
                 </>
               );
             })}
-
+             <Card>
             <Typography marginTop={2} textAlign={"center"} variant="h6">Total : {total}</Typography>
+            </Card>
           </Box>
         </Grid>
       </Grid>
