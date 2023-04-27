@@ -187,9 +187,10 @@ function App() {
                 </>
               );
             })}
-             <Card>
-            <Typography marginTop={2} textAlign={"center"} variant="h6">Total : {total}</Typography>
-            </Card>
+            <Box marginTop={2}>             <Card>
+            <Typography textAlign={"center"} variant="h6">Total : {total}</Typography>
+            </Card></Box>
+
           </Box>
         </Grid>
       </Grid>
